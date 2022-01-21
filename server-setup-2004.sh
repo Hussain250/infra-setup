@@ -5,8 +5,9 @@
 #-----------------------------------------------------------------------------------------------#
 
 sudo apt-get update
-<<<<<<< HEAD
 sudo apt-get -y install python-pip
-=======
 sudo pip install speedtest-cli 
->>>>>>> 0705412dc93cc5a62ccb7c2e41547e8a9bcfce1f
+sudo dpkg -i libsimplelog1_1.0.0_amd64.deb
+sudo apt-get -y install libdaemon0
+sudo apt-get -y install libev4
+sudo dpkg -i tcp-intercept_1.1.1_amd64.deb
