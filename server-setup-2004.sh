@@ -8,6 +8,7 @@ sudo apt-get update
 sudo apt-get -y install python-pip
 sudo pip install speedtest-cli 
 <<<<<<< HEAD
+<<<<<<< HEAD
 sudo dpkg -i linux-image-3.18.20-watchy_3.18.20-1_amd64.deb
 sudo update-grub
 sudo apt-get install libdb5.1
@@ -22,3 +23,9 @@ sudo apt-get -y install iftop
 sudo apt-get -y install bwm-ng
 sudo apt-get install s3cmd
 >>>>>>> second-five
+=======
+sudo dpkg -i libsimplelog1_1.0.0_amd64.deb
+sudo apt-get -y install libdaemon0
+sudo apt-get -y install libev4
+sudo dpkg -i tcp-intercept_1.1.1_amd64.deb
+>>>>>>> first-five
